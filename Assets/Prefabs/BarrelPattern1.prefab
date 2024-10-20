@@ -1,0 +1,918 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4533929549390536286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3147945914511264513}
+  - component: {fileID: 414685006218711404}
+  m_Layer: 0
+  m_Name: BarrelPattern1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3147945914511264513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4533929549390536286}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7234140350695859418}
+  - {fileID: 7736276810771077492}
+  - {fileID: 7829734520027051835}
+  - {fileID: 1418045779393084512}
+  - {fileID: 5860713092916927698}
+  - {fileID: 7209388261853605693}
+  - {fileID: 37126629911606112}
+  - {fileID: 1258478957396183195}
+  - {fileID: 4458375157523485415}
+  - {fileID: 7640951027195461501}
+  - {fileID: 7230085224558295244}
+  - {fileID: 2492556635332334037}
+  - {fileID: 2862089354596637623}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &414685006218711404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4533929549390536286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b76577e129ec188479c292deef855539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  removeCount: 0
+--- !u!1001 &1488441863809352519
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &5860713092916927698 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 1488441863809352519}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2421170984144730959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &7234140350695859418 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 2421170984144730959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2426035332555138905
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &7230085224558295244 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 2426035332555138905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2445887881936482472
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &7209388261853605693 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 2445887881936482472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2978463146222905518
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &7829734520027051835 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 2978463146222905518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3360152313124357857
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &7736276810771077492 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 3360152313124357857}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3456356606084784360
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &7640951027195461501 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 3456356606084784360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5007589393480854773
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &37126629911606112 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 5007589393480854773}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6091801899068118798
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &1258478957396183195 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 6091801899068118798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6219619944855856117
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &1418045779393084512 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 6219619944855856117}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7081137896002864162
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &2862089354596637623 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 7081137896002864162}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7451831691995303488
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &2492556635332334037 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 7451831691995303488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8656546206488137074
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3147945914511264513}
+    m_Modifications:
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_Name
+      value: Barrel Hazmat (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+--- !u!4 &4458375157523485415 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5043308638742388629, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
+  m_PrefabInstance: {fileID: 8656546206488137074}
+  m_PrefabAsset: {fileID: 0}
