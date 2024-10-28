@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI success;
 
+    public int TotalCount => _totalCount;
+    
     private int _totalCount = 0;
     private int _successCount = 0;
 
@@ -32,4 +34,5 @@ public class GameManager : MonoBehaviour
         _successCount++;
         success.SetText(_successCount.ToString());
     }
+    
 }

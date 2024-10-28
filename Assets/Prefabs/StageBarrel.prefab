@@ -45,10 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstacle: {fileID: 5984208205988606982, guid: ee580e7e5cb0ab14381e52935549cd05, type: 3}
-  obstacleCount: 40
+  obstacleCount: 45
   randomRangeX: 15
-  offset: 2
-  gapMin: 6
+  offset: 1.6
+  gapMin: 5
   gapMax: 9999
   height: 2
 --- !u!1 &3360216375772840640
@@ -463,14 +463,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6179d45d1d4c74c96c1b6c056c1fd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 2967281239626567575}
   raycastLength: 20
   raycastCount: 30
   raycastAngle: 180
   raycastSlope: 15
+  agent: {fileID: 2967281239626567575}
   rb: {fileID: 0}
   depthMap: []
-  tagList: 
   handControl: 0
 --- !u!1001 &165975667112921192
 PrefabInstance:
@@ -728,12 +727,9 @@ MonoBehaviour:
   pushingSpeed: 3
   ball: {fileID: 5511388207446992426}
   target: {fileID: 3360216376529532475}
-  obstacles:
+  obstacleControllers:
   - {fileID: 8448200774884232511}
-  movingWalls: []
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
+  movingWallControllers: []
 --- !u!114 &3360216377227686512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -756,7 +752,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 3c247a9a06d4d7a4885b4a183470830a, type: 3}
+  m_Model: {fileID: 5022602860645237092, guid: e47c08ccd790d0246b1bb52b1f5e0597, type: 3}
   m_InferenceDevice: 2
   m_BehaviorType: 0
   m_BehaviorName: Sisyphus

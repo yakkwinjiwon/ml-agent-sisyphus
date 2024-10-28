@@ -722,7 +722,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 5000
   runningSpeed: 6
-  pushingSpeed: 5
+  pushingSpeed: 3
   ball: {fileID: 8299705631882159954}
   target: {fileID: 3360216376529532475}
   obstacleControllers:
@@ -750,7 +750,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: f62f72e79a63742409b2030e4eb6b4c7, type: 3}
   m_InferenceDevice: 2
   m_BehaviorType: 0
   m_BehaviorName: Sisyphus
