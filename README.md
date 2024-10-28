@@ -1,6 +1,6 @@
 # The Game of Sisyphus - Unity ML-Agents
 
-[![Sisyphus Game]](https://www.youtube.com/watch?v=vLOHMt0x4Sk)
+[![Sisyphus Game](http://img.youtube.com/vi/vLOHMt0x4Sk/0.jpg)](https://www.youtube.com/watch?v=vLOHMt0x4Sk)
 
 
 This project replicates "The Game of Sisyphus" using Unity's ML-Agents framework.  
