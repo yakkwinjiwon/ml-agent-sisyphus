@@ -1,5 +1,5 @@
 # The Game of Sisyphus - Unity ML-Agents
-
+![sisyphus](https://github.com/user-attachments/assets/902cba96-0b47-4673-86be-4ad54a296fd1)
 [![Sisyphus Game](http://img.youtube.com/vi/vLOHMt0x4Sk/0.jpg)](https://www.youtube.com/watch?v=vLOHMt0x4Sk)
 
 
