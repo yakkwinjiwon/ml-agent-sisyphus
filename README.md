@@ -22,9 +22,9 @@ The goal of this project is to create an immersive RL environment where the agen
 
 ## Version
 
-Unity version: 2021.3.37f1
-ML Agents: 2.0.0
-ML Agents Extensions: 0.4.0
+**Unity version: 2021.3.37f1**  
+**ML Agents: 2.0.0**  
+**ML Agents Extensions: 0.4.0**  
 
 We cannot guarantee compatibility with other versions, and you may need to downgrade `numpy` if required.
 
