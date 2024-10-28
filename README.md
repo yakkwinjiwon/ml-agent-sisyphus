@@ -11,7 +11,7 @@ The agent's objective is to reach the top of the hill without letting the ball r
 
 - [Project Overview](#project-overview)
 - [Version](#version)
-- [Running the Simulation]_(#running the Simulation)
+- [Running the Simulation](#running-the-simulation)
 - [License](#license)
 
 ## Project Overview
